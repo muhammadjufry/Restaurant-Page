@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="stylesheet" href="style.css" />
     <title>Home</title>
   </head>
   <body>
@@ -17,10 +17,51 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </header>
-      <section></section>
+      <section class="contactSection">
+        <h2>Contact Me</h2>
+        <form method="get" class="contact">
+          <div>
+            <label for="firstName">First Name:</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="First Name.."
+            />
+          </div>
+          <div>
+            <label for="lastName">Last Name:</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Last Name.."
+            />
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Email.." />
+          </div>
+          <div>
+            <label for="message">Your message:</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="50"
+              rows="20"
+              placeholder="Message..."
+            ></textarea>
+          </div>
+        </form>
+      </section>
 
       <footer>
-        <span>Copyright @ 2022 Novell</span>
+        <span
+          >Copyright @ 2022 <a href="https://github.com/NJ-2020">Novell</a> &
+          <a href="https://github.com/SayyidMuhammad878"
+            >Sayyid Muhammad A</a
+          ></span
+        >
       </footer>
     </div>
 
